@@ -21,13 +21,13 @@ This repository contains a script that takes in a name, or list of names, of aut
    source ./.venv/bin/activate  
    ```
   
-## Step 3: update system to have required libaries
+## Step 3: Update system to have required libaries
 
    ```bash
    pip install -r requirements.txt
    ```
 
-## Step 4: run script from command line
+## Step 4: Run script from command line
 
    ```bash
    python ./src/pubmed-pull.py ./citations/ "Authors Name" latest-30
