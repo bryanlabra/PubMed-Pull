@@ -3,7 +3,7 @@ import requests
 import argparse
 import time
 
-def fetch_pubmed_citations(save_directory, name="", selection="latest-10"):
+def fetch_pubmed_citations(save_directory, name, selection):
     # Define PubMed retrieval type (defaulted to "medline" for plain-text PubMed format)
     rettype = "medline"
 
@@ -90,7 +90,7 @@ def fetch_pubmed_citations(save_directory, name="", selection="latest-10"):
 
 # CLI argument parsing
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Fetch PubMed citations for a given author's name.")
+    parser = argparse.ArgumentParser(description="Fetch PubMed citations for a given professor's name.")
     parser.add_argument("save_directory", type=str, help="Directory to save the citation file")
     parser.add_argument("name", type=str, help="Name of the professor or search term")
     parser.add_argument("selection", type=str, choices=["latest-10", "latest-30"], help="Fetch the latest 10 or 30 results")
