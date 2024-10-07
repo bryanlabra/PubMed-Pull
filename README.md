@@ -5,7 +5,7 @@ This repository contains a script that takes in a name, or list of names, of aut
   - VOSviewer download [https://www.waveshare.com/wiki/1.14inch_LCD_Module](https://www.vosviewer.com/download)
 
 ## Step 1: Clone Repository
-  Open your code editor within the target folder and type:
+  Open your code editor within the target folder and type into your command line:
    ```bash
    git clone https://github.com/bryanlabra/VOSviewer-PubMed_Citations.git
    ```
